@@ -7,8 +7,7 @@ require("dotenv").config()
 const app = express()
 
 const corsOptions = {
-  origin: "http://localhost:5173",
-  // origin: "https://client-opal-rho.vercel.app/",
+  origin: "https://client-opal-rho.vercel.app/",
   optionsSuccessStatus: 200,
 }
 app.use(cors(corsOptions))
