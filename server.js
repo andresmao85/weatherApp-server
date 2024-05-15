@@ -7,7 +7,8 @@ require("dotenv").config()
 const app = express()
 
 const corsOptions = {
-  origin: "http://localhost:1234",
+  // origin: "http://localhost:1234",
+  origin: "https://client-six-lyart.vercel.app/",
   optionsSuccessStatus: 200,
 }
 app.use(cors(corsOptions))
