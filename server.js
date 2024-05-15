@@ -8,7 +8,7 @@ const app = express()
 
 const corsOptions = {
   // origin: "http://localhost:1234",
-  origin: "https://client-six-lyart.vercel.app/",
+  origin: "https://client-sage-eight-38.vercel.app/",
   optionsSuccessStatus: 200,
 }
 app.use(cors(corsOptions))
