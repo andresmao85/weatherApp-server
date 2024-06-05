@@ -1,4 +1,4 @@
-# Weather Forecast App
+# Weather App - Server
 
 This is a weather forecast application built using Express.js and Axios. The app retrieves weather data from the WeatherAPI and serves it to the frontend. The data includes current weather, daily forecasts, and hourly forecasts for a given location.
 
